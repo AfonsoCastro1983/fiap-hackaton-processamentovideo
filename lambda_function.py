@@ -136,4 +136,4 @@ def lambda_handler(event, context):
         
         enviar_email(email, subject, message)
     
-    return {"statusCode": 200, "body": "Notification sent successfully."}
+    return {"statusCode": 200, "body": "Notificações enviadas com sucesso!"}
